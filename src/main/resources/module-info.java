@@ -7,6 +7,6 @@ module com.example.sudokugame {
 
     opens main.sudoku.problemdomain to javafx.fxml;
     exports main.sudoku.problemdomain;
-    exports;
-    opens to
+    exports main.sudoku.problemdomain.model;
+    opens to;
 }

@@ -2,15 +2,18 @@ package main.sudoku.problemdomain;
 
 import java.io.Serializable;
 
+import main.sudoku.constants.GameState;
+import sudoku.computationlogic.SudokuUtilities;
+
 public class SudokuGame implements Serializable {
     private final GameState gameState;
-    private final int [][] girdState;
+    private final int [][] gridState;
 
-    public static final int GRID_BOUNDARY =9;
+    public static final int GRID_BOUNDARY = 9;
 
-    public SudokuGame(GameState gameState, int[][] girdState) {
+    public SudokuGame(GameState gameState, int[][] gridState) {
         this.gameState = gameState;
-        this.girdState = girdState;
+        this.gridState = gridState;
     }
 
     public GameState getGameState() {
@@ -18,6 +21,6 @@ public class SudokuGame implements Serializable {
     }
 
     public int[][] getCopyOfGridState() {
-        return SudokuUtilities.copyToNewArray(girdState);
+        return SudokuUtilities.copyToNewArray(gridState);
     }
 }

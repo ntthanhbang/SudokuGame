@@ -5,10 +5,6 @@ import sudoku.constants.GameState;
 
 import java.io.Serializable;
 
-/**
- * A game of sudoku is a board, which contain 81 squares.
- */
-
 public class SudokuGame implements Serializable {
     private final GameState gameState;
     private final int[][] gridState;

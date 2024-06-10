@@ -19,8 +19,6 @@ public class GameGenerator {
      * - A Random coordinate on the grid is selected. If it is empty, a Random value is allocated.
      * - The resulting allocation must not produce invalid rows, columns, or squares.
      * - If the allocation does produce an invalid game
-     *
-     * @return
      */
     private static int[][] getSolvedGame() {
         Random random = new Random(System.currentTimeMillis());

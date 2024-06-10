@@ -17,8 +17,6 @@ import java.io.IOException;
 public class ControlLogic implements IUserInterface.EventListener {
 
     private IStorage storage;
-    //Remember, this could be the real UserInterfaceImpl, or it could be a test class
-    //which implements the same interface!
     private IUserInterface.View view;
 
     public ControlLogic(IStorage storage, IUserInterface.View view) {
@@ -35,8 +33,8 @@ public class ControlLogic implements IUserInterface.EventListener {
      * @param y Y ...
      * @param input Which key was entered, One of:
      *  - Numbers 0-9
-     *
      */
+
     @Override
     public void onSudokuInput(int x, int y, int input) {
         try {
@@ -51,11 +49,11 @@ public class ControlLogic implements IUserInterface.EventListener {
 
             storage.updateGameData(gameData);
 
-            //either way, update the view
             view.updateSquare(x, y, input);
 
             //if game is complete, show dialog
-            if (gameData.getGameState() == GameState.COMPLETE) view.showDialog(Messages.GAME_COMPLETE);
+            if (gameData.getGameState() == GameState.COMPLETE)
+                view.showDialog(Messages.GAME_COMPLETE);
         } catch (IOException e) {
             e.printStackTrace();
             view.showError(Messages.ERROR);

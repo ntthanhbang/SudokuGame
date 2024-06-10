@@ -15,6 +15,7 @@ import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 import javafx.stage.Stage;
+
 import sudoku.constants.GameState;
 import sudoku.problemdomain.Coordinates;
 import sudoku.problemdomain.SudokuGame;
@@ -57,8 +58,6 @@ public class UserInterfaceImpl implements IUserInterface.View,
      * A HashMap is a data structure which stores key/value pairs. Rather than creating a member variable for every
      * SudokuTextField object (all 81 of them), I instead store these references within a HashMap, and I retrieve
      * them by using their X and Y Coordinates as a "key" (a unique value used to look something up).
-     *
-     * @param stage
      */
     public UserInterfaceImpl(Stage stage) {
         this.stage = stage;
@@ -66,7 +65,6 @@ public class UserInterfaceImpl implements IUserInterface.View,
         this.textFieldCoordinates = new HashMap<>();
         initializeUserInterface();
     }
-
 
     @Override
     public void setListener(IUserInterface.EventListener listener) {
@@ -86,8 +84,6 @@ public class UserInterfaceImpl implements IUserInterface.View,
      * 1. Draw each TextField based on x and y values.
      * 2. As each TextField is drawn, add it's coordinates (x, y) based on it's Hash Value to
      * to the HashMap.
-     *
-     * @param root
      */
     private void drawTextFields(Group root) {
         //where to start drawing the numbers
@@ -95,7 +91,6 @@ public class UserInterfaceImpl implements IUserInterface.View,
         final int yOrigin = 50;
         //how much to move the x or y value after each loop
         final int xAndYDelta = 64;
-
 
         for (int xIndex = 0; xIndex < 9; xIndex++) {
             for (int yIndex = 0; yIndex < 9; yIndex++) {
@@ -136,7 +131,6 @@ public class UserInterfaceImpl implements IUserInterface.View,
      * In order to draw the various lines that make up the Sudoku grid, we use a starting x and y offset
      * value (remember, x grows positively from left to right, and y grows positively from top to bottom).
      * Each square is meant to be 64x64 units, so we add that number each time a
-     * @param root
      */
     private void drawGridLines(Group root) {
         //draw vertical lines starting at 114x and 114y:
@@ -195,7 +189,6 @@ public class UserInterfaceImpl implements IUserInterface.View,
 
     /**
      * Background of the primary window
-     * @param root
      */
     private void drawBackground(Group root) {
         Scene scene = new Scene(root, WINDOW_X, WINDOW_Y);
@@ -205,7 +198,6 @@ public class UserInterfaceImpl implements IUserInterface.View,
 
     /**
      * Background of the actual sudoku board, offset from the window by BOARD_PADDING
-     * @param root
      */
     private void drawSudokuBoard(Group root) {
         Rectangle boardBackground = new Rectangle();
@@ -284,7 +276,6 @@ public class UserInterfaceImpl implements IUserInterface.View,
         dialog.showAndWait();
     }
 
-
     @Override
     public void handle(KeyEvent event) {
         if (event.getEventType() == KeyEvent.KEY_PRESSED) {
@@ -315,6 +306,7 @@ public class UserInterfaceImpl implements IUserInterface.View,
      * @param value  expected to be an integer from 0-9, inclusive
      * @param source the textfield object that was clicked.
      */
+
     private void handleInput(int value, Object source) {
         listener.onSudokuInput(
                 ((SudokuTextField) source).getX(),

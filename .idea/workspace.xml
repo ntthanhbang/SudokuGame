@@ -4,37 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fbe32a8a-fa84-4b95-88b9-66ac0b848aad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sudoku/problemdomain/IStorage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sudoku/userinterface/IUserInterface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/module-info.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sudoku/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sudoku/SudokuApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/SudokuApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sudoku/buildlogic/SudokuBuildLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/buildlogic/SudokuBuildLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sudoku/computationlogic/GameGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/computationlogic/GameGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sudoku/computationlogic/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/computationlogic/GameLogic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sudoku/computationlogic/SudokuSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/computationlogic/SudokuSolver.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sudoku/computationlogic/SudokuUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/computationlogic/SudokuUtilities.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sudoku/constants/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/constants/GameState.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sudoku/constants/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/constants/Messages.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sudoku/constants/Rows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/constants/Rows.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sudoku/persistence/LocalStorageImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/persistence/LocalStorageImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sudoku/problemdomain/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/problemdomain/Coordinates.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sudoku/problemdomain/IStorage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sudoku/problemdomain/SudokuGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/problemdomain/SudokuGame.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sudoku/userinterface/IUserInterfaceContract.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sudoku/userinterface/SudokuTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/userinterface/SudokuTextField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sudoku/userinterface/UserInterfaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/userinterface/UserInterfaceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/sudoku/userinterface/logic/ControlLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/userinterface/logic/ControlLogic.java" afterDir="false" />
+    <list default="true" id="fbe32a8a-fa84-4b95-88b9-66ac0b848aad" name="Changes" comment="finish the basics, need to add check method (which tile user got wrong) and choose levels method (easy, medium, hard)">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sudoku/buildlogic/SudokuBuildLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/buildlogic/SudokuBuildLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sudoku/computationlogic/GameGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/computationlogic/GameGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sudoku/computationlogic/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/computationlogic/GameLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sudoku/computationlogic/SudokuSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/computationlogic/SudokuSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sudoku/computationlogic/SudokuUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/computationlogic/SudokuUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sudoku/constants/Rows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/constants/Rows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sudoku/problemdomain/SudokuGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/problemdomain/SudokuGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sudoku/userinterface/UserInterfaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/userinterface/UserInterfaceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/sudoku/userinterface/logic/ControlLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/userinterface/logic/ControlLogic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,22 +52,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/Projects/Sudoku&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "Application.SudokuApplication.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Projects/SudokuGame",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Projects\SudokuGame\src\sudoku" />
@@ -111,11 +92,26 @@
       <updated>1717945870283</updated>
       <workItem from="1717945871298" duration="1157000" />
       <workItem from="1717947967258" duration="4111000" />
-      <workItem from="1717983275653" duration="1116000" />
+      <workItem from="1717983275653" duration="10447000" />
+      <workItem from="1717999850298" duration="395000" />
+      <workItem from="1718000439034" duration="1220000" />
     </task>
+    <task id="LOCAL-00001" summary="finish the basics, need to add check method (which tile user got wrong) and choose levels method (easy, medium, hard)">
+      <option name="closed" value="true" />
+      <created>1717987301467</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1717987301467</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finish the basics, need to add check method (which tile user got wrong) and choose levels method (easy, medium, hard)" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish the basics, need to add check method (which tile user got wrong) and choose levels method (easy, medium, hard)" />
   </component>
 </project>

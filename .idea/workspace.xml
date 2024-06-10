@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fbe32a8a-fa84-4b95-88b9-66ac0b848aad" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/qodana.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/module-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sudoku/problemdomain/IStorage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/sudoku/userinterface/IUserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/module-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sudoku/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sudoku/SudokuApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/SudokuApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sudoku/buildlogic/SudokuBuildLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/buildlogic/SudokuBuildLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sudoku/computationlogic/GameGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/computationlogic/GameGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sudoku/computationlogic/GameLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/computationlogic/GameLogic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sudoku/computationlogic/SudokuSolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/computationlogic/SudokuSolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sudoku/computationlogic/SudokuUtilities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/computationlogic/SudokuUtilities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sudoku/constants/GameState.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/constants/GameState.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sudoku/constants/Messages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/constants/Messages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sudoku/constants/Rows.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/constants/Rows.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sudoku/persistence/LocalStorageImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/persistence/LocalStorageImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sudoku/problemdomain/Coordinates.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/problemdomain/Coordinates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sudoku/problemdomain/IStorage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sudoku/problemdomain/SudokuGame.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/problemdomain/SudokuGame.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sudoku/userinterface/IUserInterfaceContract.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sudoku/userinterface/SudokuTextField.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/userinterface/SudokuTextField.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sudoku/userinterface/UserInterfaceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/userinterface/UserInterfaceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/sudoku/userinterface/logic/ControlLogic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sudoku/userinterface/logic/ControlLogic.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;ntthanhbang&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ntthanhbang/SudokuGame.git&quot;,
+    &quot;accountId&quot;: &quot;1459b6f8-77c5-4b9e-ad83-7115e0daf160&quot;
+  }
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="2heDtjDmMMheCfRgaSxwhersIIG" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Projects/Sudoku&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Projects\SudokuGame\src\sudoku" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.17011.79" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.17011.79" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fbe32a8a-fa84-4b95-88b9-66ac0b848aad" name="Changes" comment="" />
+      <created>1717945870283</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1717945870283</updated>
+      <workItem from="1717945871298" duration="1157000" />
+      <workItem from="1717947967258" duration="4111000" />
+      <workItem from="1717983275653" duration="1116000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
